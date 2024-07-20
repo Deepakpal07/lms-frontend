@@ -11,10 +11,8 @@
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.6",
-    "@tailwindcss/line-clamp": "^0.4.4",
     "axios": "^1.7.2",
     "chart.js": "^4.4.3",
-    "daisyui": "^4.12.10",
     "eslint-plugin-simple-import-sort": "^12.1.1",
     "react": "^18.3.1",
     "react-chartjs-2": "^5.2.0",
@@ -25,10 +23,12 @@
     "react-router-dom": "^6.25.1"
   },
   "devDependencies": {
+    "@tailwindcss/line-clamp": "^0.4.4",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
     "@vitejs/plugin-react": "^4.3.1",
     "autoprefixer": "^10.4.19",
+    "daisyui": "^4.12.10",
     "eslint": "^8.57.0",
     "eslint-plugin-react": "^7.34.3",
     "eslint-plugin-react-hooks": "^4.6.2",
