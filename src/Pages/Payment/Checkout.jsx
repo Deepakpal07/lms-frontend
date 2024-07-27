@@ -35,10 +35,10 @@ function Checkout() {
             theme: {
                 color: '#F37254'
             },
-            prefill: {
-                email: userData.email,
-                name: userData.fullName
-            },
+            // prefill: {
+            //     email: userData.email,
+            //     name: userData.fullName
+            // },
             handler: async function (response) {
                 paymentDetails.razorpay_payment_id = response.razorpay_payment_id;
                 paymentDetails.razorpay_signature = response.razorpay_signature;
