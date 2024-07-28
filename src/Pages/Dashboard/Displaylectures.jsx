@@ -41,7 +41,7 @@ function Displaylectures() {
                         controls
                         disablePictureInPicture
                         muted
-                        controlsList="nodownload"
+                        // controlsList="nodownload"
                     >
                     </video>
                     <div>
